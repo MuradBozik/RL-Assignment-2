@@ -1,0 +1,47 @@
+Test,Board Size,Experiment Amount,1st,1st Wins,2nd,2nd Wins
+Test0,3,50,"IDTT[process time (seconds):1.0, maxdepth:3]",1,"MCTS [CP:0.8, N:100, itermax:25, process time (seconds):1]",49
+Test0.1,4,50,"IDTT [process time (seconds):2.0, maxdepth:3]",17,"MCTS [CP:0.8, N:100, itermax:25, process time (seconds):2]",33
+Test0.2,5,50,"IDTT [process time (seconds):1.0, maxdepth:1]",36,"MCTS [CP:0.8, N:100, itermax:25, process time (seconds):1]",14
+Test0.3,5,50,"IDTT [process time (seconds):2.0, maxdepth:5]",13,"MCTS [CP:0.8, N:100, itermax:25, process time (seconds):2]",37
+Test1,3,50,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",50,"IDTT [process time (seconds):20.0, maxdepth:1]",0
+Test1_swapped,3,50,"IDTT [process time (seconds):20.0, maxdepth:1]",4,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",46
+Test2,3,50,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",50,"IDTT[process time (seconds):20.0, maxdepth:2]",0
+Test2_swapped,3,50,"IDTT[process time (seconds):20.0, maxdepth:2]",0,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",50
+Test3,3,50,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",50,"IDTT[process time (seconds):20.0, maxdepth:3]",0
+Test3_swapped,3,50,"IDTT[process time (seconds):20.0, maxdepth:3]",0,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",50
+Test4,3,50,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",50,"IDTT[process time (seconds):20.0, maxdepth:1]",0
+Test4_swapped,3,50,"IDTT[process time (seconds):20.0, maxdepth:1]",12,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",38
+Test5,3,50,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",50,"IDTT[process time (seconds):20.0, maxdepth:2]",0
+Test5_swapped,3,50,"IDTT[process time (seconds):20.0, maxdepth:2]",0,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",50
+Test6,3,50,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",49,"IDTT[process time (seconds):20.0, maxdepth:3]",1
+Test6_swapped,3,50,"IDTT[process time (seconds):20.0, maxdepth:3]",1,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",49
+Test7,3,100,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",100,"IDTT[process time (seconds):20.0, maxdepth:3]",0
+Test8,3,100,"MCTS [CP:0.8, N:50, itermax:10, process time (seconds):20]",99,"IDTT[process time (seconds):20.0, maxdepth:3]",1
+Test9,3,100,"MCTS [CP:0.9, N:100, itermax:10, process time (seconds):20]",99,"IDTT[process time (seconds):20.0, maxdepth:3]",1
+Test10,3,100,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",100,"IDTT[process time (seconds):20.0, maxdepth:4]",0
+Test11,4,100,"IDTT [process time (seconds):20.0, maxdepth:4]",0,"MCTS [CP:0.55, N:80, itermax:100, process time (seconds):20]",100
+Test12,4,250,"IDTT[process time (seconds):20.0, maxdepth:3]",2,"MCTS [CP:0.9, N:100, itermax:10, process time (seconds):20]",248
+Test13,4,250,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",233,"IDTT [process time (seconds):20.0, maxdepth:4]",17
+Test14,5,50,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",50,"IDTT [process time (seconds):20.0, maxdepth:1]",0
+Test14_swapped,5,50,"IDTT [process time (seconds):20.0, maxdepth:1]",15,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",35
+Test15,5,50,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",41,"IDTT[process time (seconds):20.0, maxdepth:2]",9
+Test15_swapped,5,50,"IDTT[process time (seconds):20.0, maxdepth:2]",2,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",48
+Test16,5,50,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",48,"IDTT[process time (seconds):20.0, maxdepth:3]",2
+Test16_swapped,5,50,"IDTT[process time (seconds):20.0, maxdepth:3]",36,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",14
+Test17,5,50,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",49,"IDTT [process time (seconds):20.0, maxdepth:1]",1
+Test17_swapped,5,50,"IDTT [process time (seconds):20.0, maxdepth:1]",20,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",30
+Test18,5,50,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",32,"IDTT[process time (seconds):20.0, maxdepth:2]",18
+Test18_swapped,5,50,"IDTT[process time (seconds):20.0, maxdepth:2]",0,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",50
+Test19,5,50,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",47,"IDTT[process time (seconds):20.0, maxdepth:3]",3
+Test19_swapped,5,50,"IDTT[process time (seconds):20.0, maxdepth:3]",41,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",9
+Test20,5,50,"MCTS [CP:0.9, N:100, itermax:15, process time (seconds):15]",50,"IDTT [process time (seconds):15.0, maxdepth:15]",0
+Test21,3,100,"MCTS [CP:0.5, N:100, itermax:10, process time (seconds):20]",92,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",8
+Test22,3,100,"MCTS [CP:0.95, N:100, itermax:10, process time (seconds):20]",99,"MCTS [CP:0.6, N:100, itermax:10, process time (seconds):20]",1
+Test23,3,100,"MCTS [CP:0.8, N:10, itermax:10, process time (seconds):20]",33,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",67
+Test24,3,100,"MCTS [CP:0.8, N:50, itermax:25, process time (seconds):20]",44,"MCTS [CP:0.8, N:150, itermax:25, process time (seconds):20]",56
+Test25,4,250,"MCTS [CP:0.1, N:100, itermax:10, process time (seconds):20]",114,"MCTS [CP:0.9, N:100, itermax:10, process time (seconds):20]",136
+Test26,4,250,"MCTS [CP:0.8, N:100, itermax:10, process time (seconds):20]",119,"MCTS [CP:0.5, N:100, itermax:10, process time (seconds):20]",131
+Test27,7,50,"MCTS [CP:0.01, N:200, itermax:10, process time (seconds):20]",50,"MCTS [CP:0.99, N:50, itermax:10, process time (seconds):20]",0
+Test28,9,50,"MCTS [CP:0.5, N:1000, itermax:10, process time (seconds):20]",0,"MCTS [CP:0.5, N:100, itermax:100, process time (seconds):20]",50
+Test29,9,40,"MCTS [CP:1.0, N:100, itermax:50, process time (seconds):20]",19,"MCTS [CP:0.25, N:100, itermax:50, process time (seconds):20]",21
+Test30,11,5,"MCTS [CP:0.7, N:100, itermax:10, process time (seconds):20]",0,"MCTS [CP:0.5, N:100, itermax:10, process time (seconds):20]",5

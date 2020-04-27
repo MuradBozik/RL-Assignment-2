@@ -1,0 +1,12 @@
+------- Result of experiment -------
+Board size: 5
+Number of experiment: 50
+First Player was BLUE (IDTT)!
+HyperParameters process time (seconds):2.0, maxdepth:5
+Second Player was RED (MCTS)!
+HyperParameters CP:0.8, N:100, itermax:25, process time (seconds):2
+Win count of Red: 37
+Win count of Blue: 13
+Rating of BLUE Player: trueskill.Rating(mu=22.786, sigma=1.244)
+Rating of RED Player: trueskill.Rating(mu=27.214, sigma=1.244)
+Total time: 2945.51 secs
